@@ -1,0 +1,6 @@
+C:\Users\Nicolas\Desktop\ahorasi\SistCondominio\SistCondominio\bin\Debug\SistCondominio.dll
+C:\Users\Nicolas\Desktop\ahorasi\SistCondominio\SistCondominio\bin\Debug\SistCondominio.pdb
+C:\Users\Nicolas\Desktop\ahorasi\SistCondominio\SistCondominio\obj\Debug\SistCondominio.csprojAssemblyReference.cache
+C:\Users\Nicolas\Desktop\ahorasi\SistCondominio\SistCondominio\obj\Debug\SistCondominio.csproj.CoreCompileInputs.cache
+C:\Users\Nicolas\Desktop\ahorasi\SistCondominio\SistCondominio\obj\Debug\SistCondominio.dll
+C:\Users\Nicolas\Desktop\ahorasi\SistCondominio\SistCondominio\obj\Debug\SistCondominio.pdb

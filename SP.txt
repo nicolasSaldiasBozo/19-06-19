@@ -1,0 +1,27 @@
+create or replace PROCEDURE Listar_GASTOSCOMUNES(registros out sys_refcursor) 
+as
+
+contador number=1;
+N number=1;
+
+BEGIN
+insert into TablaMeses
+select m.MES,g.VALOR_MONTO from Mes m,GASTOSCOMUNES g ;
+
+while contador=12
+LOOP
+
+
+update TablaMeses 
+set t_valor='Pagado'
+where t_mes=
+(select m.mes from mes m inner join pagogastos p on (m.id_mes=p.mes)
+where p.departamento_id=N and m.id_mes=contador);
+
+contador=contador+1;
+
+end LOOP;
+
+open registros for SELECT  FROM TablaMeses;
+commit;
+end Listar_GASTOSCOMUNES;
